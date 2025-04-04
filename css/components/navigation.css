@@ -1,0 +1,96 @@
+.i-single-navigation {
+  margin-bottom: clamp(50px, 4.5vw, 80px);
+}
+
+.i-single-wrapper {
+  border-radius: 20px;
+  padding: 30px;
+  background: #edf8ff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.i-single-nav-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 130%;
+  color: #303036;
+  margin-bottom: 20px;
+}
+
+.i-single-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.i-single-nav-list a {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #303036;
+  position: relative;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.i-single-nav-list a:after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 14px;
+  height: 14px;
+  background: url('../../images/arrow-right.svg') center / contain no-repeat;
+  transition: 0.3s ease;
+}
+
+.manager-person {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.manager-person .photo {
+  width: 80px;
+  height: 80px;
+}
+
+.manager-person .info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.manager-person .info .name {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  color: #303036;
+}
+
+.manager-person .info p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #303036;
+}
+
+.i-manager-buttons {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (any-hover: hover) {
+  .i-single-nav-list a:hover:after {
+    transform: translateX(10px);
+  }
+}

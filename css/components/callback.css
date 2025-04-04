@@ -1,0 +1,115 @@
+.i-single-callback {
+  margin-bottom: 60px;
+}
+
+.i-single-callback-wrapper {
+  background: url('../../images/cb-bg.png') center / cover no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+  padding-block: 22px;
+  padding-inline: clamp(15px, 2vw, 30px);
+}
+
+.i-single-callback-title {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.i-single-callback p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  margin-bottom: 11px;
+}
+
+.i-single-callback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.i-single-callback-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.i-single-callback-form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.i-single-callback-form-block label {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+}
+.i-single-callback-form-block input {
+  border-radius: 16px;
+  padding: 12px 40px;
+  background-color: #fff;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: rgb(48, 48, 54);
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.i-single-callback-form .bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.i-single-callback-form .i-btn {
+  max-width: 413px;
+  width: 100%;
+  display: block;
+}
+
+.i-single-callback-form .policy {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  max-width: 250px;
+  gap: 10px;
+  width: 100%;
+}
+
+.i-single-callback-form .policy input {
+  accent-color: #f44336;
+}
+
+.i-single-callback-form .policy span {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 115%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.i-single-callback-form .policy span a {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 115%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 992px) {
+  .i-single-callback-form-row {
+    grid-template-columns: 1fr;
+  }
+}
