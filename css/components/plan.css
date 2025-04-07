@@ -92,6 +92,7 @@
 
 .i-plan-plans .plan button {
   border-color: #f44336;
+  font-size: 16px;
 }
 
 @media (any-hover: hover) {

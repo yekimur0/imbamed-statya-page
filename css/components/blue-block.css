@@ -39,6 +39,7 @@
 
 .i-blue-block-wrapper .right {
   display: flex;
+  align-items: flex-start;
   gap: 20px;
 }
 
@@ -117,6 +118,15 @@
   border: none;
   cursor: pointer;
   transition: 0.3s ease;
+}
+
+.i-blue-block .i-btn {
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+.i-blue-block-reversed .i-btn {
+  padding: 10px 20px;
 }
 
 @media (any-hover: hover) {
